@@ -1,0 +1,117 @@
+<!doctype html>
+<html class="no-js">
+<head>
+	<meta charset="utf-8">
+	<title>Responsive&mdash; Sweetish Segment</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+
+	<link rel="shortcut icon" href="favicon.png">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic%7CRoboto:400,700%7CDroid+Serif" rel="stylesheet" type="text/css">
+	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+	<header id="top" class="navbar">
+		<div class="container">
+			<div class="inner">
+
+				<div class="site-title">
+					<h1><a href="index.html"><img src="img/logo.png" width="144" height="52" alt=""></a></h1>
+					<a href="#site-menu" class="site-menu-toggle">
+						<span class="sr-only">Toggle navigation</span>
+						<em class="first"></em><em class="middle"></em><em class="last"></em>
+					</a>
+				</div>
+
+				<div id="site-menu">
+					<nav>
+						<ul>
+							<li><h6><a href="about.html">Profile</a></li>
+							<li class="menu-item-has-children current-menu-parent">
+								<h6><a href="index.html">portfolio</a>
+								<ul>
+								
+									
+								</ul>
+							</li>
+							
+						</ul>
+					</nav>
+				</div>
+
+			</div>
+		</div>
+	</header>
+
+
+	<main id="content" class="white-background" role="main">
+		<div class="container">
+			<h6 class="single-title">user testing</h6>
+			<div class="owl-carousel owl-slider">
+				<img src="img/ux3.png" width="1240" height="698" alt="">
+				<img src="img/ux2.png" width="1240" height="698" alt="">
+				<img src="img/ux.png" width="300" height="300" alt="">
+	
+			
+			</div>
+			<div class="margin-1"></div>
+			<div class="row">
+				<div class="col-sm-4 col-md-3 project-properties">
+					<h6>Company</h6>
+					<p class="small"><a href="https://www.area9.dk">Area9 Group</a>
+ 					</p>
+					<h6>Year</h6>
+					<p class="small">2016-2017</p>
+					<h6>Project</h6>
+					<p class="small">Interactive Mobile Prototype</p>
+					<h6></h6>
+					</p>
+				</div>
+				<div class="col-sm-8 col-md-8 col-md-offset-1">
+
+					<p class="small">
+
+The following are wireframes, sketches and renderings of mobile prototypes or click throughs. These are initially built as a way to conduct UX testing & to optimize design and functionality of the final product.  
+
+
+
+					
+		<div class="margin-1"></div>	
+		
+</main>
+
+
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/site.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script>
+		jQuery(".owl-carousel.owl-slider").owlCarousel({
+			items   : 1,
+			nav     : true,
+			navText : ['', ''],
+			loop    : true
+		});
+		jQuery(".owl-carousel.owl-thumbs").owlCarousel({
+			items   : 3,
+			margin  : 30,
+			nav     : true,
+			navText : ['', ''],
+			dots    : false,
+			loop    : false,
+			responsive : {
+				0: {
+					items   : 2
+				},
+				768: {
+					items   : 3
+				}
+			}
+		});
+	</script>
+</body>
+</html>

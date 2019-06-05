@@ -1,0 +1,128 @@
+<!doctype html>
+<html class="no-js">
+<head>
+	<meta charset="utf-8">
+	<title>fortyK &mdash; Sweetish Segment</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+
+	<link rel="shortcut icon" href="favicon.png">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic%7CRoboto:400,700%7CDroid+Serif" rel="stylesheet" type="text/css">
+	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+	<header id="top" class="navbar" role="banner">
+		<div class="container">
+			<div class="inner">
+
+				<div class="site-title">
+					<h1><a href="index.html"><img src="img/logo.jpg" width="144" height="52" alt=""></a></h1>
+					<a href="#site-menu" class="site-menu-toggle">
+						<span class="sr-only">Toggle navigation</span>
+						<em class="first"></em><em class="middle"></em><em class="last"></em>
+					</a>
+				</div>
+
+				<div id="site-menu">
+					<nav>
+						<ul>
+							<li><h6><a href="about.html">Profile</a></li>
+							<li class="menu-item-has-children current-menu-parent">
+								<h6><a href="index.html">portfolio</a>
+								<ul>
+								
+							</li>
+							<li class="menu-item-search">
+								<a href="search.html"><i class="fa fa-search"></i><i class="fa fa-times"></i></a>
+								<form method="get" id="site-searchform" class="searchform" action="search.html">
+									<input type="search" name="s" autocomplete="off" placeholder="Search&hellip;">
+									<input type="submit" value="&#xf002;">
+								</form>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+			</div>
+		</div>
+	</header>
+
+	<main id="content" class="white-background" role="main">
+		<div class="container">
+			<h6 class="single-title">fortyK gallery</h2>
+			<div class="owl-carousel owl-slider">
+			<img src="img/fortyk1.jpg" width="1240" height="698" alt="">
+				<img src="img/hive.jpg" width="1240" height="698" alt="">
+				<img src="img/fortyk.jpg" width="1240" height="698" alt="">
+				<img src="img/crowd.jpg" width="1240" height="698" alt="">
+				<img src="img/artstuff.jpg" width="1240" height="698" alt="">
+			
+				
+			</div>
+			<div class="margin-1"></div>
+			<div class="row">
+				<div class="col-sm-4 col-md-3 project-properties">
+					<h6>Place</h6>
+					<p class="small">40 Kirkland Ave (Cambridge, MA) </p>
+					<h6>2015-2016 Co-Curators</h6>
+					<p class="small">Scott Valentine, Vero Smith</p>
+					<h6>Support</h6>
+					<p class="small">Harvard GSD Student Forum</p>
+				
+					</p>
+				</div>
+				<div class="col-sm-8 col-md-8 col-md-offset-1">
+					<p>
+
+
+
+<p class="small">
+Kirkland Gallery is an independent, not-for-profit, student-run organization. All exhibition and event proposals are peer-reviewed and selected to represent the diverse design and research endeavors. 
+ </p>
+ <p>
+
+ </p>
+<p class="small">
+<a href="http://www.gsdkirklandgallery.com/">Visit the gallery website.</a>
+	<div class="margin-3"></div>
+</div>
+					
+		
+		
+	</main>
+
+	
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/site.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script>
+		jQuery(".owl-carousel.owl-slider").owlCarousel({
+			items   : 1,
+			nav     : true,
+			navText : ['', ''],
+			loop    : true
+		});
+		jQuery(".owl-carousel.owl-thumbs").owlCarousel({
+			items   : 3,
+			margin  : 30,
+			nav     : true,
+			navText : ['', ''],
+			dots    : false,
+			loop    : false,
+			responsive : {
+				0: {
+					items   : 2
+				},
+				768: {
+					items   : 3
+				}
+			}
+		});
+	</script>
+</body>
+</html>
